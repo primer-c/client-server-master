@@ -52,6 +52,75 @@ tags: Node
   $ pm2 update
   ```
 
+#### 5. 使用
+
+1. 进入项目根目录
+
+- 启动进程/应用 
+  
+  ```bash
+  pm2 start bin/www 
+  # OR 
+  pm2 start app.json
+  ```
+
+- 添加进程/应用 
+
+  ```bash
+  watch pm2 start bin/www --watch
+  ```
+
+- 结束进程/应用 
+
+  ```bash
+  pm2 stop www
+  ```
+
+- 结束所有进程/应用 
+
+  ```bash
+  pm2 stop all
+  ```
+
+- 列出所有进程/应用 
+
+  ```bash
+  pm2 list
+  ```
+
+- 查看某个进程/应用具体情况 
+
+  ```bash
+  pm2 describe www
+  ```
+
+- 查看进程/应用的资源消耗情况 
+
+  ```bash
+  pm2 monit
+  ```
+
+- 查看pm2的日志 
+
+  ```bash
+  pm2 logs
+  ```
+- 若要查看某个进程/应用的日志,使用 
+
+  ```bash
+  pm2 logs www
+  ```
+- 重新启动进程/应用 
+
+  ```
+  pm2 restart www
+  ```
+- 重新启动所有进程/应用 
+
+  ```bash
+  pm2 restart all
+  ```
+
 ### 2. 参考文档
 
 [[]]()
