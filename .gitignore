@@ -1,3 +1,9 @@
+# Editor 
+.vscode
+
+# Node 
+node-modules
+
 # Logs
 logs
 *.log

@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+        "name": "api",
+        "script":"server/index.js"
+    },
+    {
+        "name":"font-end",
+        "script":"client/index.js"
+    }
+  ]
+}
+ 
